@@ -2,10 +2,46 @@
 
 [Go to full paper list](https://paulalmasan.github.io/Papers-in-short/)  
 
+### *DeepZip: Lossless Data Compression using Recurrent Neural Networks*
+
+M Goyal, K Tatwawadi, S Chandak, I Ochoa. DCC 2019   
+Link to paper: <a href="https://arxiv.org/abs/1811.08162">https://arxiv.org/abs/1811.08162</a>  
+Code available? <b style="color:green;">YES</b>  
+<a href="https://github.com/mohit1997/DeepZip" target="_blank" rel="noopener noreferrer">Link to code</a>
+
+#### Keywords
+Lossless Compression, Recurrent Neural Networks
+
+#### Problem addressed
+Sequential data is present in a wide range of applications or domains (e.g., text, voice). To efficiently store such a massive amount of information, compression techniques are required to work with and understand sequential data. The paper addresses the problem of compressing sequential data using Neural Networks (NN).  
+
+#### Background
+In the last years, we have seen a raise in the amount of new types of data generated (e.g., genomic, 3D, video, voice). Therefore, the research community studied the statistics of such data to propose good compressors. When data comes in a sequential form, it is well known that to have a good predictor of the next symbol leads to high compression ratios. In the paper, the authors propose DeepZip, a compression method that uses Recurrent NN (RNN) for lossless compression.
+
+#### Solution
+DeepZip consists of two main blocks: probability predictor and the arithmetic encoder. Given a data sequence of N symbols, the probability predictor block uses a RNN to process the data sequence and predict the probability distribution of the next symbol at the K-th timestep, where 0$<$K$<$N. This distribution is then passed to the arithmetic encoder block, which is responsible for encoding it into a state. This process is repeated until the end of the sequence, and thus, resulting in a compressed sequence that uses less bits than the original sequence. The better the predictor, the higher compression rate the arithmetic encoding can achieve. The decompression is symmetrical to the compression process (i.e., it starts by decompressing the first symbols using uniform probabilities and then it uses the RNN to obtain the probability distribution for each symbol). Figure 1 depicts the compression and decompression processes.
+
+<img src="./assets/Image4.png" alt="Figure1" width="400" height="350"/>
+
+#### Evaluation
+The authors compared the performance of DeepZip against some generic and some dataset specific compressors. They evaluated the compression performance using real and synthetic datasets. The real datasets include text and genomic data and the synthetic datasets were generated using known entropy rates. In addition, they evaluated different NN architectures (e.g., Fully Connected, bidirectional GRU) in the predictor block to find the one with highest performance.  
+
+The results from Table 1 indicate that DeepZip with bidirectional GRU has a competitive performance when compressing real datasets. The authors remark that the model size has a significant impact on the overall size after compression, especially when the data sequences are short. Table 3 shows the results when compressing synthetic data. The authors argue that when the sequences have long-term dependencies, traditional compressors fail because they are not able to capture and use these dependencies to predict the next symbol.  
+
+<img src="./assets/Image5.png" alt="Table1" width="400" height="150"/>
+<img src="./assets/Image6.png" alt="Tabl3" width="400" height="150"/>
+
+Images source: <a href="https://arxiv.org/abs/1811.08162" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/1811.08162</a>  
+
+#### Take home ideas
+* General purpose compressors (e.g., Gzip) perform poorly on domain specific data types (e.g., sequential data).  
+* An accurate predictor leads to high compression ratios.  
+* The NN model size has a direct impact on the overall size.  
+* RNNs are able to achieve competitive compression performance.  
 
 ### *Experience-Driven Congestion Control: When Multi-Path TCP Meets Deep Reinforcement Learning*
 Z Xu, J Tang, C Yin, et. al. IEEE Journal on Selected Areas in Communications, 2019  
-<a href="https://ieeexplore.ieee.org/abstract/document/8664598" target="_blank"  rel="noopener noreferrer">Link to paper</a>  
+Link to paper: <a href="https://ieeexplore.ieee.org/abstract/document/8664598" target="_blank"  rel="noopener noreferrer">https://ieeexplore.ieee.org/abstract/document/8664598</a>  
 Code available? <b style="color:red;">NO</b>  
 
 #### Keywords
@@ -40,7 +76,7 @@ The experiments are performed on 2 laptops interconnected as client and server. 
 
 ### *A Deep Reinforcement Learning Perspective on Internet Congestion Control*
 N Jay, N Rotman, B Godfrey, et. al. International Conference on Machine Learning, 2019  
-<a href="http://proceedings.mlr.press/v97/jay19a.html" target="_blank"  rel="noopener noreferrer">Link to paper</a>  
+Link to paper: <a href="http://proceedings.mlr.press/v97/jay19a.html" target="_blank"  rel="noopener noreferrer">http://proceedings.mlr.press/v97/jay19a.html</a>  
 Code available? <b style="color:green;">YES</b>  
 <a href="https://github.com/PCCproject/PCC-RL" target="_blank" rel="noopener noreferrer">Link to code</a> 
 
@@ -75,7 +111,7 @@ The evaluation experiments are performed over a single sender and evaluated over
 
 ### *TIDE: Time-relevant deep reinforcement learning for routing optimization*
 P Sun, Y Hu, J Lan, L Tian, M Chen. Future Generation Computer Systems 2019  
-<a href="https://www.sciencedirect.com/science/article/pii/S0167739X19305424?casa_token=K7fVgqdviVkAAAAA:TpoC0yVUSWRr-JCCKVNQwexRaI_eTUR_NdzVpfWYlBGv7RmnBCOTJWnlZ1ArpbhfmWyp164-bg" target="_blank"  rel="noopener noreferrer">Link to paper</a>  
+Link to paper: <a href="https://www.sciencedirect.com/science/article/pii/S0167739X19305424?casa_token=K7fVgqdviVkAAAAA:TpoC0yVUSWRr-JCCKVNQwexRaI_eTUR_NdzVpfWYlBGv7RmnBCOTJWnlZ1ArpbhfmWyp164-bg" target="_blank"  rel="noopener noreferrer">Link to paper</a>  
 Code available? <b style="color:red;">NO</b>  
 
 #### Keywords
