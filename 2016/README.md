@@ -4,7 +4,7 @@
 
 ### *Resource management with deep reinforcement learning*
 H Mao, M Alizadeh, I Menache, S Kandula. HotNets 2016: Proceedings of the 15th ACM Workshop on Hot Topics in Networks  
-<a href="https://dl.acm.org/doi/abs/10.1145/3005745.3005750?casa_token=X81PmxfQfLEAAAAA:oe-fWxAyDKqsbsU-fRJ-Pt48sNbBjhU6yx38U68d93wIgvXmtqFNcfh3xi4xFm0n3kauCPp_pkI" target="_blank" rel="noopener noreferrer">Link to paper</a>  
+Link to paper: <a href="https://dl.acm.org/doi/abs/10.1145/3005745.3005750?casa_token=X81PmxfQfLEAAAAA:oe-fWxAyDKqsbsU-fRJ-Pt48sNbBjhU6yx38U68d93wIgvXmtqFNcfh3xi4xFm0n3kauCPp_pkI" target="_blank" rel="noopener noreferrer">Link to paper</a>  
 Code available? <b style="color:green;">YES</b>  
 <a href="https://github.com/hongzimao/deeprm" target="_blank" rel="noopener noreferrer">Link to code</a>  
 

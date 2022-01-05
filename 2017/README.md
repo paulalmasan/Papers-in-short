@@ -4,7 +4,7 @@
 
 ### *Neural Adaptive Video Streaming with Pensieve*
 H Mao, R Netravali, M Alizadeh. SIGCOMM 2017  
-<a href="https://dl.acm.org/doi/10.1145/3098822.3098843" target="_blank" rel="noopener noreferrer">Link to paper</a>  
+Link to paper: <a href="https://dl.acm.org/doi/10.1145/3098822.3098843" target="_blank" rel="noopener noreferrer">https://dl.acm.org/doi/10.1145/3098822.3098843</a>  
 Code available? <b style="color:green;">YES</b>  
 <a href="https://github.com/hongzimao/pensieve" target="_blank" rel="noopener noreferrer">Link to code</a>  
 

@@ -168,7 +168,7 @@ Images source: <a href="https://arxiv.org/abs/2004.11986" target="_blank" rel="n
 
 ### *Combining Deep Reinforcement Learning With Graph Neural Networks for Optimal VNF Placement*
 P Sun, J Lan, J Li, Z Guo, Y Hu. IEEE Communications Letters 2020  
-<a href="https://ieeexplore.ieee.org/document/9201405" target="_blank" rel="noopener noreferrer">Link to paper</a>  
+Link to paper: <a href="https://ieeexplore.ieee.org/document/9201405" target="_blank" rel="noopener noreferrer">https://ieeexplore.ieee.org/document/9201405</a>  
 Code available? <b style="color:red;">NO</b>  
 
 #### Keywords

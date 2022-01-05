@@ -5,7 +5,7 @@
 ### *AuTO: Scaling Deep Reinforcement Learning for Datacenter-Scale Automatic Traffic Optimization*
 
 L Chen, J Lingys, K Chen, F Liu. SIGCOMM 2018   
-<a href="https://dl.acm.org/doi/abs/10.1145/3230543.3230551?casa_token=NxCL8PxJwosAAAAA:aL8sq6q2fCEqgX0BEKmj8T0ZBsCfHNxtZRpoRLpRwALSyzvHwflXsd-7TPL-VgLwJCL_hz9HnWc" target="_blank" rel="noopener noreferrer">Link to paper</a>  
+Link to paper: <a href="https://dl.acm.org/doi/abs/10.1145/3230543.3230551?casa_token=NxCL8PxJwosAAAAA:aL8sq6q2fCEqgX0BEKmj8T0ZBsCfHNxtZRpoRLpRwALSyzvHwflXsd-7TPL-VgLwJCL_hz9HnWc" target="_blank" rel="noopener noreferrer">Link to paper</a>  
 Code available? <b style="color:red;">NO</b> 
 
 #### Keywords
