@@ -2,6 +2,43 @@
 
 [Go to full paper list](https://paulalmasan.github.io/Papers-in-short/)  
 
+### *Spatio-temporal analysis and prediction of cellular traffic in metropolis*
+
+Wang, X., Zhou, Z., Xiao, F., Xing, K., Yang, Z., Liu, Y., & Peng, C. IEEE Transactions on Mobile Computing, 2019.
+Link to paper: <a href="https://doi.org/10.1109/TMC.2018.2870135">https://doi.org/10.1109/TMC.2018.2870135</a>  
+Code available? <b style="color:red;">NO</b>  
+
+#### Keywords
+Mobile Networks, Spatio-Temporal Analysis, Traffic Prediction
+
+#### Problem addressed
+In this paper, the authors propose a method for mobile traffic forecasting in urban areas. Their solution is expected to help carriers manage and schedule network resources efficiently in the future.
+
+#### Background
+The authors argue that the recent adaptation of the SDN and NFV paradigms in mobile networks enables cell towers to flexibly adapt to the traffic load. Having a forecast model that can predict the traffic in the future can assist network carriers to plan ahead and schedule network resources. With this scheduling strategy they can guarantee the network performance metrics and quality of service specifications. 
+
+Forecasting cell-level traffic is challenging due to the large variation in traffic at individual cell towers. In addition, user’s mobility introduces spatial correlations between cell towers. Finally, human-related activities (e.g., holidays, social events) have a significant impact on cellular traffic behavior.
+
+The authors analyze real-world data from around 6,000 cell towers from a major city in China. 
+
+#### Solution
+First, the authors study the data and they decompose the traffic into in-cell and inter-cell traffic. The first one corresponds to the traffic coming from mobile devices residing in the cell while the latter corresponds to traffic from devices entering the cell from another cell. The data analysis shows that there are some cell towers that have a higher proportion of inter-cell traffic than others. This indicates that the users are moving across cells, inducing spatial correlations among cell towers. The authors argue that it’s important to consider these spatial dependencies to accurately predict the cell traffic.
+
+The authors represent the problem as a graph where nodes correspond to cell towers and the edges to the spatial dependency between two towers. As mentioned previously, the spatial dependency between distant towers comes from user mobility. In-cell traffic is assigned as a feature to the nodes while inter-cell is assigned to the edges. 
+
+A model based on GNNs is trained for each cell tower. This model takes as input the node-level sequence of traffic values of the cell where the prediction is made, its neighbors and from the adjacent edges.
+
+#### Evaluation
+The authors compare their solution against 4 baselines, including ARIMA and a standard LSTM neural network. For comparison they use the MAE and MARE error metrics. 
+
+The first set of experiments are regarding the model training. The results indicate that the model converges and its training stabilizes after around 200 epochs. The second set of experiments correspond to the performance comparison. Specifically, they compare the performance of predicting the cell-level traffic with all the baselines. The experiments show promising results for the GNN method, achieving the lowest MAE and MARE. This indicates that taking into accound spatial and temporal correlations helps predict more accurately than other methods that only take one of these approaches.
+
+#### Take home ideas
+* Cell traffic can be divided in two: in-cell which is the traffic of the devices connected to the cell tower, and inter-cell which is traffic coming from devices coming from another cell.  
+* The high user mobility creates spatial correlations between cell towers.  
+* The spatio-temporal model based on GNNs effectively predicts the cell traffic and outperforms the baselines that only consider the spatial or the temporal trends.  
+
+
 ### *DeepZip: Lossless Data Compression using Recurrent Neural Networks*
 
 M Goyal, K Tatwawadi, S Chandak, I Ochoa. DCC 2019   

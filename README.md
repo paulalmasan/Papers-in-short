@@ -2,6 +2,8 @@ I'm a PhD student at the <a href="https://bnn.upc.edu/" target="_blank" rel="noo
 
 If you want to know more about my projects, you can find me in Twitter <a href="https://twitter.com/PaulAlmasan" target="_blank" rel="noopener noreferrer">@PaulAlmasan</a> or in <a href="https://paulalmasan.github.io/" target="_blank" rel="noopener noreferrer">my personal page</a>.
 
+* **Spatio-temporal analysis and prediction of cellular traffic in metropolis**. Wang, X., Zhou, Z., Xiao, F., Xing, K., Yang, Z., Liu, Y., & Peng, C. IEEE Transactions on Mobile Computing, 2019. [Summary](https://paulalmasan.github.io/Papers-in-short/2019/#spatio-temporal-analysis-and-prediction-of-cellular-traffic-in-metropolis)
+
 * **DeepZip: Lossless Data Compression using Recurrent Neural Networks**. M Goyal, K Tatwawadi, S Chandak, I Ochoa. DCC 2019. [Summary](https://paulalmasan.github.io/Papers-in-short/2019/#deepzip-lossless-data-compression-using-recurrent-neural-networks)
 
 * **Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning**. H Zhu, J Kim, Y Jung, H Yeo, J Ye, D Han. SIGCOMM 2020. [Summary](https://paulalmasan.github.io/Papers-in-short/2020/#neural-enhanced-live-streaming-improving-live-video-ingest-via-online-learning)
