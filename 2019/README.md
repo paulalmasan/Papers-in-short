@@ -4,7 +4,7 @@
 
 ### *Spatio-temporal analysis and prediction of cellular traffic in metropolis*
 
-Wang, X., Zhou, Z., Xiao, F., Xing, K., Yang, Z., Liu, Y., & Peng, C. IEEE Transactions on Mobile Computing, 2019.
+Wang, X., Zhou, Z., Xiao, F., Xing, K., Yang, Z., Liu, Y., & Peng, C. IEEE Transactions on Mobile Computing, 2019.  
 Link to paper: <a href="https://doi.org/10.1109/TMC.2018.2870135">https://doi.org/10.1109/TMC.2018.2870135</a>  
 Code available? <b style="color:red;">NO</b>  
 
